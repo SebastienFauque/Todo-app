@@ -1,0 +1,63 @@
+* {
+  background-color: rgb(20, 223, 186);
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+form {
+  margin: 50px;
+}
+
+input {
+  width: 10%;
+  height: 30px;
+  border-radius: 5%;
+  background:rgb(107, 255, 228)
+}
+
+input:nth-child(1) {
+  width: 20%;
+  height: 200px;
+}
+input:nth-child(3) {
+  background-color: green;
+  color: white;
+}
+
+table {
+  border: 1px solid #000000;
+  margin: auto;
+  padding: 20px;
+}
+
+th, td {
+  border: 1px solid #000000;
+  margin: auto;
+  padding: 10px;
+}
+
+.status {
+  background: #ff0f0f;
+  width: 20px;
+  height: 20px;
+}
+
+.delete {
+  background: #ff0f0f;
+  padding: 5px;
+}
+
+.delete:hover {
+  background: yellow;
+}
+
+@media(min-width: 768px) {
+
+
+}
